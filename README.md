@@ -12,6 +12,8 @@ Code related to simulating different sandpile models.
 (describe the general idea of the sandpile model) 
 
 
-## Describe differences between models
+### Describe differences between models
 
 (how do the models differ) 
+
+### Describe differences in code of thee same model
