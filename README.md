@@ -25,13 +25,15 @@ The Abelian sandpile model (AM) is cellular automata similar to the original BTW
 ``` 
 where $\mathbf{n}, \mathbf{n}' \in \{1,...,N\}$, $N$ is the number of sites on the lattice, and $h_\mathbf{n}^c > 0$ is the critical height threshold. 
 
-![](Model_Images/lattice_init.png | width=100)
-![](Model_Images/lattice_0.png | width=100)
-![](Model_Images/lattice_1.png | width=100)
-![](Model_Images/lattice_2.png | width=100)
+<!-- ![](Model_Images/lattice_init.png?raw=true)
+![](Model_Images/lattice_0.png?raw=true)
+![](Model_Images/lattice_1.png?raw=true)
+![](Model_Images/lattice_2.png?raw=true) -->
 
 ### Describe differences between models
 
-(how do the models differ) 
-
+The main simulation code, `sandpiles.f90` simulates the generalized manna model with stochastic dissipation (probability $\lambda$ that a transferring grain is dissipated from the system) and tunable height threshold. 
+  
 ### Describe differences in code of thee same model
+
+The secondary code, `sandpiles_multi.f90` simulates the same generalized Manna model but the code to distribute an avalanche is drawn from a distribution, rather than deciding each transferring grain separately. 
