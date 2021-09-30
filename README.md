@@ -16,11 +16,13 @@ The code below simulates a simple cellular automata sandpile models which have b
 <!-- (describe the general idea of the sandpile model)  -->
 
 The Abelian sandpile model (AM) is cellular automata similar to the original BTW model. Typically defined on a $d$-dimensional hyper-cubic lattice. Each site, $\mathbf{n}$ is labelled by its height, $h_{\mathbf{n}}$. The dynamics can be described by a toppling matrix, $\Delta$ with matrix elements $\Delta_{\mathbf{n}, \mathbf{n}'}$ obeying the following rules: 
+```math
 \begin{equation}
 	\Delta_{\mathbf{n}, \mathbf{n}} = h_\mathbf{n}^c > 0; \quad 
 	\Delta_{\mathbf{n}, \mathbf{n}'} < 0; \quad
 	\sum_{\mathbf{n}' = 1}^N \Delta_{\mathbf{n}, \mathbf{n}} \geq 0
-	\end{equation}
+\end{equation}
+``` 
 where $\mathbf{n}, \mathbf{n}' \in \{1,...,N\}$, $N$ is the number of sites on the lattice, and $h_\mathbf{n}^c > 0$ is the critical height threshold. 
 
 
