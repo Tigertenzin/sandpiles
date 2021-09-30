@@ -25,10 +25,10 @@ The Abelian sandpile model (AM) is cellular automata similar to the original BTW
 ``` 
 where $\mathbf{n}, \mathbf{n}' \in \{1,...,N\}$, $N$ is the number of sites on the lattice, and $h_\mathbf{n}^c > 0$ is the critical height threshold. 
 
-![](Model_Images/lattice_init.png?raw=true| width=100)
-![](Model_Images/lattice_0.png?raw=true| width=100)
-![](Model_Images/lattice_1.png?raw=true| width=100)
-![](Model_Images/lattice_2.png?raw=true| width=100)
+![](Model_Images/lattice_init.png | width=100)
+![](Model_Images/lattice_0.png | width=100)
+![](Model_Images/lattice_1.png | width=100)
+![](Model_Images/lattice_2.png | width=100)
 
 ### Describe differences between models
 
